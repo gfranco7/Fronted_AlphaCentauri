@@ -18,7 +18,7 @@ export const Login = () => {
             params: { email, password },
         })
             .then((response) => {
-                const { token, id, name, lastname, email, username, photo, bio} = response.data;
+                const { token, id, name, lastname, email, username, photo, bio, publications, followersIds, followingIds} = response.data;
     
                 console.log('Login successful:', response.data);
     
@@ -33,7 +33,10 @@ export const Login = () => {
                     email,
                     username,
                     photo,
-                    bio
+                    bio,
+                    publications,
+                    followersIds, 
+                    followingIds
                 });
     
                 alert('Welcome!');
