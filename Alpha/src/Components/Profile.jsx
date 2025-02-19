@@ -15,8 +15,7 @@ export const Profile = () => {
         <AsideMain usuario={usuario} />
         <div className=' w-full h-full overflow-y-auto'
             style={{ 
-              backgroundImage: `url('
-              ')`,
+              backgroundImage: `url('https://static.vecteezy.com/system/resources/previews/006/748/722/large_2x/planet-earth-on-space-background-elements-of-this-image-furnished-by-nasa-free-photo.jpg')`,
               backgroundSize: 'cover', // Ajusta la imagen para cubrir todo el fondo
               backgroundPosition: 'center', // Centra la imagen en el fondo
               backgroundRepeat: 'no-repeat' // Evita que la imagen se repita
