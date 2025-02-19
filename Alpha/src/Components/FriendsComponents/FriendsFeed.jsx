@@ -7,7 +7,13 @@ export const FriendsFeed = ({ usuario }) => {
   const followerIds = usuario.followersIds || []; // Asumiendo que tienes un array de seguidores en el usuario
 
   return (
-    <div className=" p-5 md:p-10 h-full overflow-y-scroll bg-gray-900">
+    <div className=" p-5 md:p-10 h-full overflow-y-scroll bg-gray-900"
+    style={{ 
+      backgroundImage: `url('https://npr.brightspotcdn.com/d1/9a/ab00ad554deb8d5b63c889676ab5/adobestock-394945439.jpeg')`,
+      backgroundSize: 'cover', // Ajusta la imagen para cubrir todo el fondo
+      backgroundPosition: 'center', // Centra la imagen en el fondo
+      backgroundRepeat: 'no-repeat' // Evita que la imagen se repita
+  }}>
       {/* Pestañas */}
       <div className="flex justify-center mb-5">
         <button

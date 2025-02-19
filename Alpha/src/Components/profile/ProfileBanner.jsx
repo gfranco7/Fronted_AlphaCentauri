@@ -30,7 +30,7 @@ export const ProfileBanner = () => {
   return (
     <div className="w-full flex flex-col items-center">
       <div
-        className="w-full hidden h-40 sm:flex sm:h-30 md:h-34 lg:h-35 bg-gray-700 bg-cover bg-center"
+        className="w-full hidden h-40 sm:flex sm:h-30 md:h-34 lg:h-35 bg-black bg-cover bg-center"
         style={{ backgroundImage: `url(${usuario.banner})` }}
       ></div>
 

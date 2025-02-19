@@ -10,11 +10,9 @@ export const Home = () => {
     const {usuario} = useUser();
     console.log(usuario);
     return (
-        <div className='text-3xl text-blue-100'>
-            <AsideMain usuario={usuario} />
-            <div className='h-full'>
-            <Feed usuario={usuario} />
-            </div>
-        </div>
+        <div className='text-3xl text-blue-100 flex flex-col h-screen'>
+        <AsideMain usuario={usuario} />
+        <Feed usuario={usuario} />
+    </div>
     )
 }

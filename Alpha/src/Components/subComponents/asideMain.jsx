@@ -46,7 +46,7 @@ export const AsideMain = ({ usuario }) => {
   };
 
   return (
-    <div className="w-full bg-gray-800 text-gray-200 flex justify-around items-center p-2">
+    <div className="w-full bg-black text-gray-200 flex justify-around items-center p-2">
       <NavButton
         imagePath="https://images.vexels.com/media/users/3/223204/isolated/preview/a603755020e70576e1f4a08b012835d4-home-icon-flat-design.png"
         altText="Home Icon"
