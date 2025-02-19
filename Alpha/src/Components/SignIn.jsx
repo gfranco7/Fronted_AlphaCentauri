@@ -71,7 +71,7 @@ export const SignIn = () => {
             <aside className='hidden md:flex w-1/1 fixed left-0 h-screen justify-center items-center bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] 
                         from-indigo-900 via-slate-900 to-black border-r border-purple-500/20'
                         style={{
-                            backgroundImage: "url('../Alpha/src/assets/61691.png')",
+                            backgroundImage: "url('https://preview.redd.it/0j4rwf0l5lb81.png?auto=webp&s=3d7e5ffed4b820b40f10c6dbd544adae0a239878')",
                         }}
                         >
                 <div className='text-center space-y-4'>

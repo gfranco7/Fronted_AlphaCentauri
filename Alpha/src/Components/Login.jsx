@@ -64,7 +64,7 @@ export const Login = () => {
     return (
         <div className="min-h-screen flex items-center justify-center bg-cover bg-center relative" 
              style={{
-                 backgroundImage: "url('https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/56MB6LL63JBP3H6A6EAHV23T2Q.jpg')",
+                 backgroundImage: "url('../../Imgs/61691.png')",
              }}>
         
             <div className="absolute inset-0 bg-black/50"></div>
